@@ -1,0 +1,263 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header */
+.contenedor {
+    height: 7vh;
+    border-bottom: 1px solid #e6e6e6;
+}
+/* floating the img */
+.float_img {
+    float: left;
+}
+/* floating the text */
+.float_text {
+    float: right;
+}
+/* centring the img */
+.img_center {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+/* centring the text */
+.link_center {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+/* Styles Img */
+.img_center img {
+    width: 75px;
+    margin-left: 2vw;
+} 
+/* style text */
+.link_center a {
+    text-decoration: none;
+    color: #333333;
+    margin-right: 2vw;
+} .link_center a:hover {
+    text-decoration: underline;
+}
+
+.contenedor_main {
+    padding: 5vh 8vw 5vh 8vw;
+    height: 100vh;
+    margin-bottom: 400px;
+}
+/* Styles in the h1 */
+.h1__main {
+    color: #333333;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+/* img ccs */
+.img_ccs img {
+    width: 30px;
+}
+.img_ccs {
+    padding-top: 10px;
+}
+/* giving style in the text */
+.texto_main {
+    margin-top: 30px;
+    color: #8C8C8C;
+    font-size: 13px;
+    margin-bottom: 30px;
+    
+}
+/* giving style the input of data*/
+input {
+    height: 60px;
+    margin: 20px 0px 0px;
+    color: black;
+    outline: 0;
+    width: 100%;
+    border: 2px solid rgb(128, 128, 128);
+    padding-left: 2px;
+}
+input:focus {
+    border-top: 2px solid rgb(0, 136, 255);
+    border-left:2px solid rgb(0, 136, 255);
+    border-bottom: 2px solid rgb(0, 136, 255);
+    border-right:2px solid rgb(0, 136, 255);
+}
+select {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    color: #8C8C8C;
+    background-color: #ffffff;
+    outline: 0;
+    border: 2px solid rgb(128, 128, 128);
+}
+select:focus {
+    border-top: 2px solid rgb(0, 136, 255);
+    border-left:2px solid rgb(0, 136, 255);
+    border-bottom: 2px solid rgb(0, 136, 255);
+    border-right:2px solid rgb(0, 136, 255);
+    color: #000000;
+}
+
+/* giving style the button of form */
+.button button {
+    height: 10vh;
+    width: 98%;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f6121d;
+    border-color: #f6121d;
+    border-bottom: #f6121d;
+    border-right: #f6121d;
+    color: #ffffff;
+    font-size: 20px;
+} .button button:hover {
+    background-color: rgb(217, 3, 3);
+}
+/* Styles in the footer */
+footer {
+    /* margin-top: 300px; */
+    background-color: #F3F3F3;
+    box-shadow: 0px 1px 3px rgb(110, 110, 110);
+    color: #8C8C8C;
+    padding-left: 8vw;
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+.footer_uno {
+    padding-top: 15px;
+}
+.footer_uno h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer_dos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer_dos a {
+    color: #8C8C8C;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+.footer_dos a:hover {
+    text-decoration: underline;
+}
+.footer_dos li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+@media screen and (max-width: 500px) {
+    .footer_uno h1 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .footer_uno h1 {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 501px) {
+    .footer_uno h1 {
+        font-size: 20px;
+    }
+    .contenedor {
+        height: 10vh;
+    }
+    .img_center img {
+        width: 150px;
+        margin-top: 2vh;
+    }
+    .link_center {
+        font-size: 25px;
+        margin-top: 2vh;
+    } 
+    .contenedor_main {
+        width: 50vw;
+        padding: 5vh 25vw 5vh 25vw;
+    }
+    input {
+        width: 100%;
+    }
+    footer {
+        padding-left: 25vw;
+    }
+}
+
+/* 
+                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                            
+                                                                                                                                      ...',;:cclllloollccllc:cccc::;,'...                                                                                                                                   
+                                                                                                                             ..'.,oodOKKXNNWWMMMMWNWMWNXXWWWNWMWWWNNNNXXKOxdol;..                                                                                                                           
+                                                                                                                       ..;cdkOKXKKX00NWWMMWWNXXWMWNWWWWNXNWNNNX0XXKK0O0KKXKKKXXKKOxdl;..                                                                                                                    
+                                                                                                                  .':okO0XWMWWNKKKNXOOkOXWWWNXNWWMWWMMWWWWWWMWWKxxkO0kO0XWWWWWMMMMMMWNK0kd:,.                                                                                                               
+                                                                                                              .:okKXNX0O0NWWWMWNNX0OkOOdddxOOOkkxxxdoooooooodxxkl:dO0KKXNNNNXXXXXNWWWWWWNXKK0kd:'                                                                                                           
+                                                                                                          .;oOXWMWXXK0KNNK0KNWWX0Oxooc,...                         ....',:lldk0KXNWWWWWWWWWWWWMWXOd:.                                                                                                       
+                                                                                                       .:xKWMNXKKKOOKNWWNK0xo:,..                                             ..;cldOKWWWMMMMMWWWWMWKxc'                                                                                                    
+                                                                                                     .dXWMWNNXK0OXMWN0xl;..                                                          .,cdOXWMMWMMMWWMWWNk'                                                                                                  
+                                                                                                     ;XMWMWWWWMWN0dc'.                                                                    .:oOXWMMWWWWWMNc                                                                                                  
+                                                                                                     ;XMNNWWMNkc'.                                                                            'cxKXWMMMMN:                                                                                                  
+                                                                                                     ;XMNNWMM0,               .';:::;,..                                .,;:cc:::,..            .dXWMMMMN:                                                                                                  
+                                                                                                     ;XW0ONMMK,           .;ok0XNWWWWWN0kl,.                        'cx0XNWWWWWWWWX0xc'         .kMWMMMMN:                                                                                                  
+                                                                                                     ;XNKKXWMK,         'o0NWWNXNNNNNNWWWWNOl.                   .lONWWWWWWWWNK00KXWMWXd,       .kMMMMMMN:                                                                                                  
+                                                                                                     ;XWWWWWW0'       .:O0KN0xoolodOXWWWWWMMWXd'               'dXWWWWWWWWKd:'.....;lkKNXo.     .kMMMMMMN:                                                                                                  
+                                                                                                     ;XWWNNWW0'     .:dxxo:'.       'cONMWMMMMWKl.           .lKWWMMMWWN0c.           .cd0k,    .kMMMMMMN:                                                                                                  
+                                                                                                     ;XWWWWWMK,    :ol:,.             .;OWMMMWWWWO'         .dNNNWWWMWKl.                ;xO;   .kMMMMMMN:                                                                                                  
+                                                                                                     ;XMMMMMMK,   .:.                   .oNMWMWWWWk.        oWWWWNXWNk'                    ;:.  .kMMMMMMN:                                                                                                  
+                                                                                                     ;XMMMMMMX;                           ,kNWWWWWx.        oNMWWWWKc.                          .kMMMMMMN:                                                                                                  
+                                                                                                     ;XMMMMMMX;             ..''''..       .lO00xc.         .ckK0kl.       .......              .kMMMMMMN:                                                                                                  
+                                                                                                     ;XMMMMMMX;         .,lx0XNNNNXKOxl;.     ..               ..     .,lxOKXXKKK0kxo:'.        .kMMMMMMN:                                                                                                  
+                                                                                                     ;XMMMMMMX;       ,xKWWWMMWMMMMMMMMWKd.                         .l0NMMMMWWWNWMMMMWNO:       .kMMMMMMN:                                                                                                  
+                                                                                                     ,KXNWWMMX;       'd0NWWMMMMMMMMMMMN0o.                         .cONMMWMMMMMMMMMMNKx,       .kMWMMMMN:                                                                                                  
+                                                                                                     ,0XXWWWMX;         .,:lx0XXXXKOkdc,.                             .'coxOKXXXK0kdc,.         .kMWMMMMN:                                                                                                  
+                                                                                                     ;XMNNNNWX;               .....                                         ......              .kMMMMMMN:                                                                                                  
+                                                                                                     ;XMMWWWWX;                                                                                 .kMMMMMMN:                                                                                                  
+                                                                                                     ,0MMMMMMX;                                                                                 .kMMMMMMN:                                                                                                  
+                                                                                                     '0MMMMMMX;                                                                                 .kMMMMMMN:                                                                                                  
+                                                                                                     ,KMMMMMMX;                                                                                 .kMMMMMMN:                                                                                                  
+                                                                                                     ,KMMMMMMO.                                                                                 .OMMMMMMN:                                                                                                  
+                                                                                                     ,KMMMMMMK;                                                                                 .OWWWWWMX:                                                                                                  
+                                                                                                     ,KMMMMMWX;                                                                                 .OWWWNNWK;                                                                                                  
+                                                                                                     ,KMMMMMMX;       .;.                                                             .;'       '0WX00XWK,                                                                                                  
+                                                                                                     ,KMMMMMMX;       .cOx;.                                                        ,dOl.       ;KNKO0NM0'                                                                                                  
+                                                                                                     ,KMMMMMMNl         ,0N0l'                   .lkkkkxxkkxl.                   .cONK:         cNNXNWWMk.                                                                                                  
+                                                                                                     .kMMMMMMM0,         'kWWNkc.              .lKWWWXKXNMMWX0o.              .;dKWWk'         .xMWWWMWWx.                                                                                                  
+                                                                                                      ;XMMMMMMWx.         .xNWMWKd;.         .lKWWWNKKKXX00XXXWXo'          ,d0XXNWk.          :XWXNNNNXc                                                                                                   
+                                                                                                       oWMMWWMMNo.         .oNMMWWW0l'     .oKWMWXNNNNWWWXKKK0KNWXd'     .lkXWWWNXx.          .xNXKKKXNO'                                                                                                   
+                                                                                                       .kWMMMMMMXl.          cXMMMMMWNOddod0XNNNXKNWMWWNXKKNN0OOOKNKxdddkXMWWWWWXl.          .oXNWWMWWXl                                                                                                    
+                                                                                                        'OWMMMMWMNd.          ;0MMMMWWMMMMWWNXK0KXWNWMWWWWNKOk00kxkkOKWMNXKXXKXKc           .dXXXXNNNXo.                                                                                                    
+                                                                                                         'OWWMMMMMWk'          'OWMMWWMWMWXKKKXWWXKKNX0kxKWWWWWNNNNX0O0XXK000Ox,           .xXKKXNWNNx.                                                                                                     
+                                                                                                          .kWMMMMMWW0:          .xWMMWNXXXK0KNMWWWWNk,.  .oXWWMMMMMMMMWWMMWMWk'           ,OWWNWWMWWk.                                                                                                      
+                                                                                                           .dNMMMMMMMNx'         .:llcc::clllllllll,       'clllllllllllllll:.          .lXWWWMMMMNx.                                                                                                       
+                                                                                                             :0WMMMMMMMXo.                                                             ,OWMWWMWMMXl.                                                                                                        
+                                                                                                              .dNMMMMMWWW0l.                                                         'xXMWWWWWWNO,                                                                                                          
+                                                                                                                ;OWMMWMMWWWKo.                                                     'dXWMMMWWWMXl.                                                                                                           
+                                                                                                                 .cKWMMMWWMWWKd'                  .:cccccccc.                    ,dXWWMWWWWWNk,                                                                                                             
+                                                                                                                   .lKWWWWWMMWWXx;.               ;KWWNNNNWNc                 .;xXWWWWWWWWNk;                                                                                                               
+                                                                                                                     .lKWWWMWWWWWW0o,             ,KWXXXXXWNc               'o0NWXXNWMMMNk:.                                                                                                                
+                                                                                                                       .cONMWWWWWWWWNkc.          ,KWWWNNNWWc            .ckXWWWMWNXNNXk;.                                                                                                                  
+                                                                                                                         .;xXWMWWWWMMMWXxc.       ,KMMMMWWMWc         'lkXWWWWMMMMWWKo'                                                                                                                     
+                                                                                                                            'o0NMMMWWMWWWN0x:'    ,KWMMMMMMWc     .,oOXWWWMMWWWWWNOc.                                                                                                                       
+                                                                                                                              .;xXWWWMWMWWWWN0ko,.;KMWMMMMMWc .'cxKXXXWMMMMWWWN0o,.                                                                                                                         
+                                                                                                                                 .ckXWWWMMMWN00XN0KWMMMMWMMWkd0XWWWWNWWMMMWW0d;.                                                                                                                            
+                                                                                                                                    .cxXWMMWNXXNWWWWWMMMWWWX00NWWWWWWWMWN0o;.                                                                                                                               
+                                                                                                                                       .:d0NNWWMWWWWWNNNWNKkcdXNWMWKKKkl,.                                                                                                                                  
+                                                                                                                                          .,lkKWMMWWNKkOKW0ol0WWWXkl,.                                                                                                                                      
+                                                                                                                                              .;oOKXNNKkoolckKko:.                                                                                                                                          
+                                                                                                                                                  .:oxdo::,...                                                                                                                                              
+                                                                                                                                                      ...                                                                                                                                                   
+                                                              
+                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                               
+By: Pain Code
+https://youtu.be/WE1y2TnYfxY 
+*/

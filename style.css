@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #EAEAEA;
+}
+/* contenedor */
+.contenedor {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(79, 79, 79, 0.527);
+    font-size: 18px;
+
+}
+/* logo netflix */
+.net {
+    text-align: center;
+} 
+.net img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 150px;
+}
+/* error */
+.error {
+    background-color: #0071EB;
+    padding-left: 10vw;
+}
+.error img {
+    width: 24px;
+    margin-top: 14px;
+    float: left;
+}
+.error p {
+    color: #ffffff;
+    padding-left: 35px;
+    font-size: 24px;
+}
+.error_dos {
+    padding-top: 10px;
+}
+p {
+    color: #333333;
+}
+/* dos */
+.dos {
+    padding-left: 10vw;
+    margin-top: 100px;
+}
+/* botom */
+.chupalo {
+    padding-left: 100px;
+}
+.buttom {
+    width: 150px;
+    height: 33px;
+    background-color: rgb(236, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 2px;
+}
+.buttom p {
+    color: #ffffff;
+}
+.buttom:hover {
+    background-color: red;
+}
+.buttom a {
+    color: #ffffff;
+    text-decoration: none;
+}
+@media screen and (max-width: 590px) {
+    .error {
+        padding-left: 5vw;
+        height: 30px;
+    }
+    .error_dos p {
+        font-size: 20px;
+        padding-left: 35px
+    }
+    .text_one h1 {
+        font-size: 30px;
+    }
+    .error img {
+        margin-top: 5px;
+    }
+    .error_dos {
+        padding-top: 5px;
+    }
+    .chupalo {
+        padding-left: 70px;
+    }
+   
+}
+
+@media screen and (min-width: 700px) {
+    .error {
+        padding-left: 20vw;
+    }
+    .dos {
+        padding-left: 20vw;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .error {
+        padding-left: 10vw;
+    }
+    .dos {
+        padding-left: 10vw;
+    }
+    .contenedor {
+        width: 60vw;
+        margin-left: 20vw;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .error {
+        padding-left: 12vw;
+    }
+    .dos {
+        padding-left: 12vw;
+    }
+    .contenedor {
+        width: 50vw;
+        margin-left: 25vw;
+    }
+}
+@media screen and (max-width: 420px) {
+    .chupalo {
+        padding-left: 25%;
+    }
+    p {
+        font-size: 15px;
+        padding-right: 5px;
+    }
+    .buttom p {
+        font-size: 10px;
+    }
+    .buttom {
+        width: 120px;
+        height: 25px;
+    }
+    .error p {
+        color: #ffffff;
+        padding-left: 35px;
+        font-size: 15px;
+    }
+}
+/* 
+                                                ...',::ccccc::c:::::;,'...                                                                                      
+                                         .,:clodOXNNWWWWWNWWNXNNNNNNXXKK0kxdoc;,..                                                                              
+                                   .';ldkKWWNXK0O0KNWNNWMWWWWNNWWNKOO000XXXXWWWWXOxo;'.                                                                         
+                               .,lx0XXKKKXNWWX0kxo::clccc::;;;;;:c:;:oodxO0KXNNWWWWWXX0xl,.                                                                     
+                            .:d0NXXKKKNNKxol:,...                         ..,:ldkKNWMMMMWNKx:.                                                                  
+                           ,0WWWNXXX0xc,.                                        .,cdONMMMMWWK;                                                                 
+                           :NWNWWOc'.                                                 'ckXWWMNc                                                                 
+                           :NNXWX;        .;loddol;.                  .;loddddoc,.      'OWMMNc                                                                 
+                           :XXXWX;     .;xXWNNNWWWWXk:.            .ckXWWWWNK00XN0l.    ,KMMMNc                                                                 
+                           :XWNWK;    'okkoc;;:lkXWWMW0c.        .l0WMWWNx:'. ..,lkk:   ,KMMMNc                                                                 
+                           :XWWWX;  .:c;.        'xNMWWNO,      .kNNWWNk,          ,dc. ,KMMMNc                                                                 
+                           :NMMMX;  ..             ;OWWWWx.     oWWNNKc.            ... ,KMMMNc                                                                 
+                           :NMMMX;        ..'''..   .lOOd'      'dOOo'   ..''...        ,KMWMNc                                                                 
+                           :NMWMN:     ,lx0XNWNX0kl'                  'lk0XNXXK0ko;.    ,KMWMNc                                                                 
+                           ;KWWMN:    .oKNWMMMMMMNKl.                .c0NWWWWMMWNKd.    ,KMMMNc                                                                 
+                           ;KNNWX:      .':lodol:,.                    .':lodol:,.      ,KMWMNc                                                                 
+                           :XWWWN:                                                      ,KMMMNc                                                                 
+                           ;XMMMN:                                                      ,KMMMNc                                                                 
+                           ;XMMMX;                                                      ,KMMMNc                                                                 
+                           ;XMMMK;                                                      ,KMWMNc                                                                 
+                           ;XMMMN:                                                      ,KWNWX:                                                                 
+                           ;XMMMN:    .,;.                                      .;;.    ;KX0NX;                                                                 
+                           ;XMMMWl     .oOo,            .:oooooo:.            'lkd.     cNXXWK,                                                                 
+                           .kMMMM0'     .lXNkc.       .c0WNXXNXNNOl.       .:xXNl.     .kWWWWO.                                                                 
+                            :XMMMWk.      :KMWXx;.  .c0WNNNNNNKKXKXOl.  .;dKWWKc       :XNXNNl                                                                  
+                             lNMMMWx.      ,0WMMWKOO0XNXXNWWWNNXKOOO0kkO0NWWW0;       ;0NNWNk.                                                                  
+                             .oNMMMWO'      'kWMWWMWXKXNNXNKkk0NXXXXX00XXXKKx'       :0XXNWO'                                                                   
+                               cXMMMMKc.     .o00OkkxkO00Oo.  .lO00000OO000d.      .oXWWMW0,                                                                    
+                                ,OWMMMWk;       .  ... ..        ..........       ,OWWWMWk'                                                                     
+                                 .oXMWWMNx;                                     ,xNWWWMXl.                                                                      
+                                   ,xNMWWWNk;.           .::::::.             ,xXWWWWNk'                                                                        
+                                     ;kNWWWWNOl'         :XWNNNNc          .:kXWWWWNk;                                                                          
+                                       ,xXWWWWWXx:.      ;XWNNNWc       .;dKWWNNNXx;.                                                                           
+                                         'o0WWWWMWKd;.   :XMMWWWl    .;d0NWWWWWKo'                                                                              
+                                           .:xXWWWWWN0dc'lNMMMMWl.'cx0NWMMMWXx:.                                                                                
+                                              .ckXWMWXKNXXWMMWMWOONWWNWMWXkc.                                                                                   
+                                                 .:xKNWWWWWNNWN0d0NWWK0x:.                                                                                      
+                                                    .;lkXWNK0OOdxK0xc'.                                                                                         
+                                                         .;lddl,',,.                                                                                             
+                                                                                                                   
+By: pain_code
+https://youtu.be/WE1y2TnYfxY 
+*/
